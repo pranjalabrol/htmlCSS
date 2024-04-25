@@ -1,0 +1,144 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* CSS styles for the individual card */
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+* {
+margin: 20;
+padding: 10;
+}
+* ul{
+    list-style-type: none;
+}
+
+.header_logo img {
+display: flex;
+    width: 80px;
+    height: 50px;
+   text-align: center;
+}
+.header-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    height: 60px;
+  }
+  
+.header_section{
+    display: flex;
+    justify-content:space-around;
+}
+.header_logo{
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.header_nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+}
+.header_center{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: auto;
+    
+}
+.header_center input[type="text"] {
+    flex-grow: 1; 
+    min-width: 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+ }
+ .left_part a {
+    text-decoration: none;
+    color: rgb(66, 63, 63);
+  }
+  
+ .left_part{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc; /* Add border */
+  padding: 20px; /* Add padding */
+  background-color: #f9f9f9; /* Add background color */
+  width: 20%; /* Set width to 25% */
+  position: fixed; /* Position it relative to the viewport */
+  top: 30; /* Align to the top of the viewport */
+  left: 0; /* Align to the left of the viewport */
+  height: 100%; 
+ 
+ }
+ 
+ .center-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .top-container, .center-container, .card-container {
+    margin-top: 20px; /* Adjust as needed */
+    
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    margin: 0 10px; /* Adjust as needed */
+  }
+  .box {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  .section {
+    border-top: 1px solid #ccc;
+    padding-top: 10px; /* Adjust as needed */
+    margin-top: 10px; /* Adjust as needed */
+  }
+  .container-boxs {
+    display: flex;
+    justify-content: space-between; /* To separate the boxes */
+    margin-top: 20px;
+  }
+  
+  main {
+    display: flex;
+    justify-content: end;
+    text-align: center;
+   
+  }
+  
+  .main-content {
+    flex: 1; /* Take up remaining space */
+  }
+  
+  .sideNav {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: -10px; 
+    height: 400px;
+   
+  }
+  
+  
+  
